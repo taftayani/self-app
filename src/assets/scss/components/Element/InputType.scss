@@ -1,0 +1,7 @@
+.InputType {
+    @apply flex gap-3 w-full bg-disable_light p-2 items-center text-disable rounded focus:outline-none;
+
+    &_input {
+        @apply bg-transparent w-full;
+    }
+}

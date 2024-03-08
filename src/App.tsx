@@ -1,14 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { useRoutes } from 'react-router-dom';
-import { PublicRoutes } from './routes/PublicRoutes';
+import './assets/scss/main.scss'
+import { useRoutes } from 'react-router-dom'
+import { PublicRoutes } from './routes/PublicRoutes'
 
-function App()
-{
+function App() {
   const appRoutes = useRoutes(PublicRoutes)
-  
+
   return appRoutes
 }
 
-export default App;
+export default App
